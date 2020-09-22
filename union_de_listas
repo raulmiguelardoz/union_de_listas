@@ -1,0 +1,7 @@
+calificaciones = [10, 10, 8, 7, 9]
+alumnos = ['Eduardo', 'Fernando', 'Mariana', 'Raquel', 'Santiago']
+dicc={}
+
+for i in range(len(calificaciones)):
+    dicc[alumnos[i]]=calificaciones[i]
+    print("{} posee una calificacion de: {}".format(alumnos[i],calificaciones[i]))
